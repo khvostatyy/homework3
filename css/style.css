@@ -7,7 +7,7 @@
 --accent-white-color: rgba(255, 255, 255, 1);
 --second-accent-white-color: rgba(255, 255, 255, 0.6);
 --background-color: rgba(47, 48, 58, 1);
-
+--second-background-color: #F5F4FA;
 }
 
 body {
@@ -240,19 +240,19 @@ body {
 
 /* Команда */
 
-.container-team {
+.team-container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 15px;
+    padding: 94px 15px;
 
-    /* background-color: yellowgreen; */
+    background-color: var(--second-background-color);
 }
 
 .main-section-title {
     margin-top: 0px;
     margin-bottom: 50px;
-    padding-top: 94px;
+    /* padding-top: 94px; */
 
     color: var(--title-text-color);
     font-size: 36px;
