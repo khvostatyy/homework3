@@ -10,108 +10,141 @@
 <body>
     <!-- Шапка -->
     <header>
-        <nav>
+        <nav class="container">
             <a href="/">
                 <img src="./images/WebStudio.svg" alt="Логотип компанії">
             </a>
 
-
+         <div class="site">
             <ul class="site-nav list">
-                <li> <a href="./index.html" class="link">Студія</a></li>
-                <li> <a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li> <a href="" class="link">Контакти</a></li>
+                <li class="site-item"> <a href="./index.html" class="link">Студія</a></li>
+                <li class="site-item"> <a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li class="site-item"> <a href="" class="link">Контакти</a></li>
             </ul>
+         </div>
 
+         <div class="auth">
             <ul class="auth-nav list">
-                <li> <a href="" class="link">info@devstudio.com</a></li>
-                <li class="tell"> +380961111111 </li>
+                <li class="item"> <a href="" class="link">info@devstudio.com</a></li>
+                <li class="tell item"> +380961111111 </li>
             </ul>
+         </div>
         </nav>
     </header>
 
     <main>
-
         <!-- Навігація -->
         <section class="page-nav">
-        <ul class="section-button list">
-            <li> <button type="button"> Все </button> </li>
-            <li> <button type="button"> Веб-сайти </button> </li>
-            <li> <button type="button"> Додатки </button> </li>
-            <li> <button type="button"> Дизайн </button> </li>
-            <li> <button type="button"> Маркетинг </button> </li>
-        </ul>
+            <ul class="section-button list">
+                <li class="button-item"> <button type="button" class="button"> Все </button> </li>
+                <li class="button-item"> <button type="button" class="button"> Веб-сайти </button> </li>
+                <li class="button-item"> <button type="button" class="button"> Додатки </button> </li>
+                <li class="button-item"> <button type="button" class="button"> Дизайн </button> </li>
+                <li class="button-item"> <button type="button" class="button"> Маркетинг </button> </li>
+            </ul>
         </section>
 
          <!-- Список робіт -->
         <section class="page-img">
             <ul class="section-img list">
-                <li> <img src="./images.portfolio/ТехнокрякJPG.jpg" alt="Ноутбук з картинками" width="370" height="294">
-                    <h2>Технокряк</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/ТехнокрякJPG.jpg" alt="Ноутбук з картинками" width="370" height="294">
+                    <div class="card-content">
+                        <h2 class="title">Технокряк</h2>
+                    <p class="text">
                         Веб-сайт
                     </p>
+                    </div>
                 </li>
-                <li> <img src="./images.portfolio/Постер.svg" alt="Два баскетболісти" width="370">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/Постер.png" alt="Два баскетболісти" width="370" height="294">
+                    <div class="card-content">
+                        <h2 class="title">Постер Orlean vs Golden Star</h2>
+                    <p class="text">
                         Дизайн
                     </p>
+                    </div>
                 </li>
-                <li><img src="./images.portfolio/Ресторан.svg" alt="Градієтний лосось" width="370">
-                    <h2>Ресторан Seafood</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/Ресторан.svg" alt="Градієтний лосось" width="370">
+                    <div class="card-content">
+                        <h2 class="title">Ресторан Seafood</h2>
+                    <p class="text">
                         Додаток
                     </p>
+                    </div>
                 </li>
-                <li><img src="./images.portfolio/ПроєктPrime.svg" alt="Комп'ютерні навушники" width="370">
-                    <h2>Проект Prime</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/ПроєктPrime.svg" alt="Комп'ютерні навушники" width="370">
+                   <div class="card-content">
+                       <h2 class="title">Проект Prime</h2>
+                    <p class="text">
                         Маркетинг
                     </p>
+                   </div>
                 </li>
-                <li><img src="./images.portfolio/ПроєктBoxes.svg" alt="Біла та коричнева коробки" width="370">
-                    <h2>Проєкт Boxes</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/ПроєктBoxes.svg" alt="Біла та коричнева коробки" width="370">
+                    <div class="card-content">
+                        <h2 class="title">Проєкт Boxes</h2>
+                    <p class="text">
                         Додаток
                     </p>
+                    </div>
                 </li>
-                <li><img src="./images.portfolio/Inspiration.svg" alt="Моноблок" width="370">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/Inspiration.png" alt="Моноблок" width="370">
+                    <div class="card-content">
+                        <h2 class="title">Inspiration has no Borders</h2>
+                    <p class="text">
                         Веб-сайт
                     </p>
+                    </div>
                 </li>
-                <li><img src="./images.portfolio/Видання.svg" alt="Розкритий журнал" width="370">
-                    <h2>Видання Limited Edition</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/Видання.svg" alt="Розкритий журнал" width="370">
+                    <div class="card-content">
+                        <h2 class="title">Видання Limited Edition</h2>
+                    <p class="text">
                         Дизайн
                     </p>
+                    </div>
                 </li>
-                <li><img src="./images.portfolio/ПроєктLab.svg" alt="Етикетка" width="370">
-                    <h2>Проєкт LAB</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/ПроєктLab.svg" alt="Етикетка" width="370">
+                   <div class="card-content">
+                       <h2 class="title">Проєкт LAB</h2>
+                    <p class="text">
                         Маркетинг
                     </p>
+                   </div>
                 </li>
-                <li><img src="./images.portfolio/Growing.svg" alt="Розкритий ноутбук" width="370">
-                    <h2>Growing Business</h2>
-                    <p>
+                <li class="img-item"><img class="card-img" src="./images.portfolio/Growing.svg" alt="Розкритий ноутбук" width="370">
+                    <div class="card-content">
+                        <h2 class="title">Growing Business</h2>
+                    <p class="text">
                         Додаток
                     </p>
+                    </div>
                 </li>
             </ul>
         </section>
-
-        <!-- Футер -->
-        <footer>
-            <img src="/images/WebStudioW.svg" alt="Логотип компанії" width="145" height="31">
-            <address class="address">
-                м. Київ, пр-т Лесі Українки, 26<br>
-                <span>info@example.com<br>
-                    +38 099 111 11 11</span>
-            </address>
-        </footer>
-
     </main>
+
+     <!-- Футер -->
+     <footer class="footer-container">
+        <div class="footer-section">
+            <div class="footer-address">
+                <img src="./images/WebStudioW.svg" alt="Логотип компанії" width="145" height="31">
+            <address class="address">
+                <span class="adress-map">м. Київ, пр-т Лесі Українки, 26</span>
+                
+                <a href="info@example.com" class="adress-link">info@example.com</a>
+                
+                <a href="+380991111111" class="adress-link">+38 099 111 11 11</a>
+            </address>
+            </div>
+
+            <div class="social">
+                <b class="join">ПРИЄДНУЙТЕСЯ</b>
+            </div>
+        </div>
+
+        <div class="copyright-container">
+            <p class="copyright">2020 | Develop by khvostatyy</p>
+        </div>
+    </footer>
 </body>
 </html>

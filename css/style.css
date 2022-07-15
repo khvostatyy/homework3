@@ -27,14 +27,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0px 15px;
+    border-bottom: 1px solid #ECECEC;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* background-color: orange; */
 }
 
 .site-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
     display: flex;
 }
@@ -61,6 +62,8 @@ body {
 
 /* Auth-nav */
 .auth-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
     display: flex;
 }
@@ -273,14 +276,13 @@ body {
 
 .team-item {
     border-radius: 5px;
+    border-bottom: 5px;
+    border-color: var(--background-color);
 
     background-color: var(--white-color);
+
     text-align: center;
 }
-
-/* .team-item h3 {
-
-} */
 
 .main-section-title h3 {
     color: var(--title-text-color);
@@ -351,14 +353,13 @@ body {
     margin-right: auto;
     padding: 20px 15px;
 
-    border-bottom: 1px;
-    border-color: var(--second-accent-white-color);
-
     background-color: var(--background-color);
 }
 
 .copyright {
     margin: 0px;
+    padding: 15px 0px;
+    border-top: 1px solid #ECECEC;
 
     color: var(--second-accent-white-color);
     font-size: 14px;
