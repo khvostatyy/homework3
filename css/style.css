@@ -181,7 +181,7 @@ body {
     margin-bottom: 0px;
 }
 
-.benefits .benefits-item + .benefits-item{
+.benefits-item + .benefits-item{
     margin-left: 30px;
 }
 
