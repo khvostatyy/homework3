@@ -271,6 +271,17 @@ body {
     margin-right: 30px;
 }
 
+.team-item {
+    border-radius: 5px;
+
+    background-color: var(--white-color);
+    text-align: center;
+}
+
+/* .team-item h3 {
+
+} */
+
 .main-section-title h3 {
     color: var(--title-text-color);
     font-size: 16px;
