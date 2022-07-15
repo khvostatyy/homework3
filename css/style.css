@@ -50,6 +50,10 @@ body {
     padding-bottom: 32px;
 
     color: var(--title-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
 }
 
 .site-nav .link:hover {
@@ -102,22 +106,13 @@ body {
     text-decoration: none;
 }
 
-/* Шапка */
-
-.site-nav .link {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.1;
-    text-decoration: none;
-}
-
 /* Герой */
 
-.hero-container {
+.hero-background {
     background-color: var(--background-color);
 }
 
-.hero {
+.section-hero {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -129,7 +124,7 @@ body {
     background-color: var(--background-color);
 }
 
-.hero .section-title {
+.hero-tittle {
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -141,7 +136,7 @@ body {
     text-align: center;
 }
 
-.hero .buttom {
+.button {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -162,23 +157,18 @@ body {
 
 /* Список переваг */
 
-.benefits {
+.section-benefits {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 94px 15px;
-
-    /* background-color: black; */
 }
 
-.section-list {
+.benefits-list {
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
-
-
-    /* background-color: tomato; */
 }
 
 .benefits-item h3 {

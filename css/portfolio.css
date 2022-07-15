@@ -154,7 +154,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 15px;
+    padding: 0px 15px 94px;
 }
 
 .section-img {
@@ -184,7 +184,7 @@ body {
 }
 
 .img-item {
-    width: ((100% - 60px) / 3);
+    /* width: calc((100% - 60px) / 3); */
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -199,6 +199,11 @@ body {
 
 .card-img {
     display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .card-content {
