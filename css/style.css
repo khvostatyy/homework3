@@ -106,6 +106,10 @@ body {
     text-decoration: none;
 }
 
+.tell:hover {
+    color: var(--accent-color);
+}
+
 /* Герой */
 
 .hero-background {
@@ -289,7 +293,14 @@ body {
 
 /* Футер */
 
+.footer-bgc {
+    background-color: var(--background-color);
+}
+
 .footer-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--background-color);
 }
 
@@ -305,6 +316,10 @@ body {
 
 .footer-address {
     margin-right: 100px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
 }
 
 .address {
